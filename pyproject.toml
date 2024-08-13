@@ -1,24 +1,22 @@
 [build-system]
-requires = ["setuptools", "wheel", "setuptools-scm"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["mendel_plotly_theme"]
-include-package-data = true
-
-[tool.setuptools.packages]
-find = { where = ["mendel_plotly_theme"] }
-
-[tool.setuptools.metadata]
+[project]
 name = "mendel-plotly-theme"
-description = "A custom Plotly theme package"
-long_description = "file: README.md"
-long_description_content_type = "text/markdown"
-author = "Mendel Engelaer"
-author_email = "ante_stamp.0a@icloud.com"
-url = "https://github.com/Mensel123/mendel-plotly-theme"
+version = "0.1.2"
+authors = [
+  { name="Mendel Engelaer", email="ante_stamp.0a@icloud.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Mensel123/mendel-plotly-theme"
+No newline at end of file
