@@ -6,8 +6,8 @@ build-backend = "setuptools.build_meta"
 packages = ["mendel_plotly_theme"]
 include-package-data = true
 
-[tool.setuptools.packages.find]
-where = ["mendel_plotly_theme"]
+[tool.setuptools.packages]
+find = { where = ["mendel_plotly_theme"] }
 
 [tool.setuptools.metadata]
 name = "mendel-plotly-theme"
