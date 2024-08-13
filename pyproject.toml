@@ -19,3 +19,6 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/Mensel123/mendel-plotly-theme"
+
+[tool.setuptools.dynamic]
+version = {attr = "package.__version__"}
