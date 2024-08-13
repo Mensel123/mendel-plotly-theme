@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mendel-plotly-theme"
-version = "0.1"
+dynamic = ["version"]
 authors = [
   { name="Mendel Engelaer", email="ante_stamp.0a@icloud.com" },
 ]
